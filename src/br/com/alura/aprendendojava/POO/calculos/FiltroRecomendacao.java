@@ -1,5 +1,7 @@
 package br.com.alura.aprendendojava.POO.calculos;
 
+import br.com.alura.aprendendojava.POO.Desafios.Interface.Classificavel;
+
 public class FiltroRecomendacao {
     private String recomendacao;
 

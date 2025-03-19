@@ -1,4 +1,4 @@
-package br.com.alura.aprendendojava.POO.calculos;
+package br.com.alura.aprendendojava.POO.Desafios.Interface;
 
 public interface Classificavel {
 

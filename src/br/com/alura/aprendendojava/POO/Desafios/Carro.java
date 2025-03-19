@@ -8,6 +8,8 @@ public class Carro {
       utilizando-a na classe principal para definir preços e mostrar informações.*/
 
     private String marca;
+
+
     private String modelo;
     private int ano;
     private String cor;
@@ -24,6 +26,23 @@ public class Carro {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
 
     void exibeFichaCarro(){
         System.out.printf("""

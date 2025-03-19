@@ -1,6 +1,6 @@
 package br.com.alura.aprendendojava.POO.model;
 
-import br.com.alura.aprendendojava.POO.calculos.Classificavel;
+import br.com.alura.aprendendojava.POO.Desafios.Interface.Classificavel;
 
 public class Episodio implements Classificavel {
     private int numero;

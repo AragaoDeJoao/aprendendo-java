@@ -109,9 +109,9 @@ public class Desafio {
         /* 4. Crie uma classe Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade do carro. */
 
         Carro c = new Carro();
-        c.modelo = "Fox";
-        c.ano = 2016;
-        c.cor = "Branco";
+        c.setModelo("Fox");
+        c.setAno(2016);
+        c.setCor("Branco");
 
         c.exibeFichaCarro();
         c.calculaIdade();
