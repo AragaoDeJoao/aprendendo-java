@@ -1,4 +1,4 @@
-package br.com.alura.aprendendojava.POO.Desafios;
+package br.com.alura.aprendendojava.POO.Desafios.Clases;
 
 public class Formatacao {
 

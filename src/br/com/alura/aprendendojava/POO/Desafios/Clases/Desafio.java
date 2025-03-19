@@ -1,6 +1,4 @@
-package br.com.alura.aprendendojava.POO.Desafios;
-
-import java.text.Format;
+package br.com.alura.aprendendojava.POO.Desafios.Clases;
 
 public class Desafio {
     public static void main(String[] args) {
@@ -148,6 +146,32 @@ public class Desafio {
 
         // https://cursos.alura.com.br/course/java-aplicando-orientacao-objetos/task/146318 Exercício 03
 
+        ConversorTemperaturaPadrao ctp = new ConversorTemperaturaPadrao();
+        System.out.println(ctp.celsiusParaFahrenheit(20));
+        System.out.println(ctp.fahrenheitParaCelsius(20));
+
+        formatacao.divideDesafio();
+
+        Livro livro = new Livro();
+        ProdutoFisico produtoFisico = new ProdutoFisico();
+
+        livro.setPreco(20.5);
+        produtoFisico.setPreco(20.5);
+
+        System.out.println(livro.calcularPrecoFinal());
+        System.out.println(produtoFisico.calcularPrecoFinal());
+
+        Produto produto = new Produto();
+        produto.setPreco(10);
+        System.out.println(produto.calculaPrecoFinal(4));
+        System.out.println(produto.calculaPrecoFinal(6));
+        System.out.println(produto.calculaPrecoFinal(10));
+
+        Servico servico = new Servico();
+        servico.setPreco(10);
+        System.out.println(servico.calculaPrecoFinal(4));
+        System.out.println(servico.calculaPrecoFinal(6));
+        System.out.println(servico.calculaPrecoFinal(10));
 
 
     }

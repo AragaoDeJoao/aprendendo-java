@@ -1,4 +1,4 @@
-package br.com.alura.aprendendojava.POO.Desafios;
+package br.com.alura.aprendendojava.POO.Desafios.Clases;
 
 public class Aluno {
     /* 5.  Crie uma classe Aluno com atributos nome, idade, e um método para exibir informações.

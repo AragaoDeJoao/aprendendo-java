@@ -1,4 +1,4 @@
-package br.com.alura.aprendendojava.POO.Desafios;
+package br.com.alura.aprendendojava.POO.Desafios.Clases;
 
 public class Musica {
     /*Crie uma classe Musica com atributos titulo, artista, anoLancamento, avaliacao e numAvaliacoes, e métodos para exibir a ficha técnica, avaliar a música e calcular a média de avaliações.*/

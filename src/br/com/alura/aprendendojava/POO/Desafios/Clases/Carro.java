@@ -1,4 +1,4 @@
-package br.com.alura.aprendendojava.POO.Desafios;
+package br.com.alura.aprendendojava.POO.Desafios.Clases;
 
 public class Carro {
     /* Crie uma classe Carro com métodos para representar um modelo específico ao longo de três anos.
