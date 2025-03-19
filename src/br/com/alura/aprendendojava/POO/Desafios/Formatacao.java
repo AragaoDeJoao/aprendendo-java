@@ -4,5 +4,6 @@ public class Formatacao {
 
     void divideDesafio(){
         System.out.println("================================");
+        System.out.println();
     }
 }
